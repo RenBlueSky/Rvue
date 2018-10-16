@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
-    
+  <div class="goodsdetail">
+    <div>{{this.$route.params.id}}</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'GoodsDetail',
   data () {
     return {
      
